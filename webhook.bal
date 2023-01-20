@@ -12,7 +12,7 @@ service github:IssuesService on webhookListener {
       //NotImplemented
     }
     remote function onClosed(github:IssuesEvent payload ) returns error? {
-      //Nmplemented
+      //
     }
     remote function onReopened(github:IssuesEvent payload ) returns error? {
       //Not Implemented
