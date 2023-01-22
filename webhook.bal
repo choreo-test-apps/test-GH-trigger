@@ -21,7 +21,7 @@ service github:IssuesService on webhookListener {
       //Not 
     }
     remote function onUnassigned(github:IssuesEvent payload ) returns error? {
-      //Not Implemented
+      //
     }
     remote function onLabeled(github:IssuesEvent payload ) returns error? {
       //Not Implemented
